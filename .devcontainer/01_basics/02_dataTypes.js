@@ -22,4 +22,4 @@ let state;
 // boolean => true/false
 // null => standalone value //object
 // undefined =>
-// symbol => unique
+// symbol => unique 
