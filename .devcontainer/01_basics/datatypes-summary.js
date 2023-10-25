@@ -14,7 +14,7 @@ let userEmail;
 const id = Symbol('123');
 const anotherId = Symbol('123');
 //console.log(typeof id);
-console.log(typeof anotherId);
+//console.log(typeof anotherId);
 
 const bigNumber = 12345678910n;
 //console.log(12345678910n);
@@ -41,3 +41,26 @@ const myFunction = function(){
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "daudulislamnishad2";
+
+let anothername = myYoutubename;
+anothername = "imnishad";
+
+//console.log(myYoutubename);
+//console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+};
+
+let userTwo = userOne;
+
+userTwo.email = "imnishad24@google.com";
+
+//console.log(userOne.email);
+//console.log(userTwo.email);
